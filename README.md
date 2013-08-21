@@ -1,4 +1,4 @@
 elixir_sips
 ===========
 
-Following along the Elixir Sips tutorial videos
+Following along with [Elixir Sips](http://elixirsips.com/) tutorial videos
