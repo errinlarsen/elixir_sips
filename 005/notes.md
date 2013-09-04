@@ -15,7 +15,7 @@ Notes
 * I don't think I learn as fast as you do. You sped through the creation of
   that module without much discussion of the pieces.
   * ```defmodule``` creates a module
-  * clearly, ```publish`` creates a function
+  * clearly, ```publish``` creates a function
   * maybe some discussion of these pieces and how the fit into *Modules*,
     *Projects*, and/or *Applications*
   * Perhaps I should ask you who your target audiance is.
@@ -28,6 +28,7 @@ Notes
     context?
   * I don't think the tuple returned describes the last function described, I
     think it's the last return value evaluated
+
   ```elixir
   iex(4)> defmodule Foo do
   ...(4)> def bar do
@@ -43,10 +44,11 @@ Notes
    95, 105, 110, 102, 111, 95, 95, 4, 100, 111, 99, 115, 9, ...>>,
     10}
   ```
+  
   * i.e., the return value of a method definition is the method's name ('bar')
     and its arity
 * After all that talk about ```mix```, project creation, module creation (many
   different ways), then you skipped right to documentation!
   * I'm all for documentation, but we just did some stuff with some things, and
-    then we abandoned it!
+    then we abandoned them!
 
